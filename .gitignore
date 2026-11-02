@@ -1,0 +1,18 @@
+# Local instructions, acceptance notes, and prepared source archives
+/AGENTS.md
+/ROADMAP.md
+/release/
+
+# Credentials and machine-specific data must never be committed
+.env
+.env.*
+.credentials.yaml
+auth.json
+*.log
+*.bak
+*.backup
+node_modules/
+.dsh/
+.codex/
+.DS_Store
+Thumbs.db
